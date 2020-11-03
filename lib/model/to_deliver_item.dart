@@ -22,6 +22,7 @@ class WaypointDetail {
   List<ToDeliverItem> toDeliverItemList;
   num earned;
   bool claimed;
+  List<String> noteList;
 
   WaypointDetail({
     @required this.tripId,
@@ -37,6 +38,7 @@ class WaypointDetail {
     @required this.deliveryIdList,
     @required this.earned,
     @required this.claimed,
+    @required this.noteList,
   });
 
   factory WaypointDetail.fromFirestore(
@@ -191,6 +193,7 @@ class WaypointDetail {
       deliveryIdList: waypointDetails['delivery_id_list'].cast<String>(),
       earned: waypointDetails['earned'],
       claimed: waypointDetails['claimed'],
+      noteList: waypointDetails['note_list'].isEmpty? null : waypointDetails['note_list'].cast<String>(),
     );
   }
 }

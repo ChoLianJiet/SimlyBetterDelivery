@@ -125,6 +125,21 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                                 ),
                               ),
                             ),
+                            widget.waypointDetail.noteList == null? Container(): SizedBox(
+                              height: 5,
+                            ),
+                            widget.waypointDetail.noteList == null? Container():  Container(
+                              width: width * 0.6,
+                              child: Text(
+                                'Note: ${widget.waypointDetail.noteList.join(', ')}',
+                                style: GoogleFonts.quicksand(
+                                  fontSize: 12.5,
+                                  fontWeight: FontWeight.w500,
+                                  color: Colors.black54,
+                                ),
+                              ),
+                            ),
+
                             SizedBox(
                               height: 5,
                             ),
@@ -661,8 +676,9 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                       ],
                     ),
                   ),
-                  widget.index == 0
-                      ? Container(
+//                  widget.index == 0
+//                      ?
+                  Container(
                           margin:
                               EdgeInsets.only(left: 10, right: 10, bottom: 10),
                           padding: EdgeInsets.all(10),
@@ -741,7 +757,7 @@ class _DeliveryDetailPageState extends State<DeliveryDetailPage> {
                             ],
                           ),
                         )
-                      : Container(),
+//                      : Container(),
                 ],
               ),
             ),

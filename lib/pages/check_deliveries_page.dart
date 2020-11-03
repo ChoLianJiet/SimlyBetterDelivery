@@ -217,6 +217,8 @@ class _CheckDeliveriesPageState extends State<CheckDeliveriesPage>
                         postcodeItemMap[postcode][i].receiver.contactNumber;
                     String address =
                         postcodeItemMap[postcode][i].address.address;
+                    List<String> noteList =
+                        postcodeItemMap[postcode][i].noteList;
                     List<String> deliveryIdList = postcodeItemMap[postcode][i].deliveryIdList;
                     return ExpansionTile(
                       tilePadding: EdgeInsets.only(
@@ -260,6 +262,16 @@ class _CheckDeliveriesPageState extends State<CheckDeliveriesPage>
                                 width: width * 0.7,
                                 child: Text(
                                   address,
+                                  style: GoogleFonts.quicksand(fontSize: 12.5),
+                                ),
+                              ),
+                              noteList  == null? Container():  SizedBox(
+                                height: 5,
+                              ),
+                              noteList  == null? Container():  Container(
+                                width: width * 0.7,
+                                child: Text(
+                                  'Note: ${noteList.join(', ')}',
                                   style: GoogleFonts.quicksand(fontSize: 12.5),
                                 ),
                               ),

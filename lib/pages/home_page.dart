@@ -455,6 +455,21 @@ class _HomePageState extends State<HomePage> {
                                                     ),
                                                   ),
                                                 ),
+                                                waypointDetail
+                                                    .noteList == null? Container(): SizedBox(
+                                                  height: 5,
+                                                ),
+                                                waypointDetail
+                                                    .noteList == null? Container():  Container(
+                                                  width: width * 0.6,
+                                                  child: Text(
+                                                    'Note: ${waypointDetail
+                                                        .noteList.join(', ')}',
+                                                    style:
+                                                    GoogleFonts.quicksand(
+                                                        fontSize: 12.5),
+                                                  ),
+                                                ),
                                                 SizedBox(
                                                   height: 5,
                                                 ),
