@@ -1,0 +1,149 @@
+{
+  "project_info": {
+    "project_number": "804689124202",
+    "firebase_url": "https://simply-better-4caeb.firebaseio.com",
+    "project_id": "simply-better-4caeb",
+    "storage_bucket": "simply-better-4caeb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804689124202:android:27a649ee6e042d17c4e313",
+        "android_client_info": {
+          "package_name": "com.futuresmithsco.simply_better.simply_better"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804689124202-a97583un4c42e5ei1nt1lql236l33sh1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.futuresmithsco.simply_better.simply_better",
+            "certificate_hash": "23a1357b6848fd8eac0863bc73a175cd204e558c"
+          }
+        },
+        {
+          "client_id": "804689124202-u44n72ma8fqu236qa1qn54akisd52720.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.futuresmithsco.simply_better.simply_better",
+            "certificate_hash": "f022423d33de0c050cd63c23be57acd1919d28d6"
+          }
+        },
+        {
+          "client_id": "804689124202-5pa5kfugre6frm44rc7in604o7fve5e9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.futuresmithsco.simply_better.simply_better",
+            "certificate_hash": "390ad009bc4bfbd56f4dcc31f411b7c794dc0ce3"
+          }
+        },
+        {
+          "client_id": "804689124202-jj8abtecaumpujuh1r3qqapqkf44t5i6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.futuresmithsco.simply_better.simply_better",
+            "certificate_hash": "ec5fc99ff81c9c99d61b6485c573198dbf9adb84"
+          }
+        },
+        {
+          "client_id": "804689124202-h1opk5s7t929ika7iusc4keg5h89onvo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOFZcBmMHxenUv4-1v8svmsLLTO06OWK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "804689124202-h1opk5s7t929ika7iusc4keg5h89onvo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "804689124202-ild0lghf5trpqr5bpu12jn5ijdch04fj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.futuresmithsco.simplyBette",
+                "app_store_id": "123213"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804689124202:android:ecd719fada66e3b2c4e313",
+        "android_client_info": {
+          "package_name": "com.futuresmithsco.simply_better.simply_better_delivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804689124202-jbnkcvbg3327et5evt4nrsn54gad10ls.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.futuresmithsco.simply_better.simply_better_delivery",
+            "certificate_hash": "23a1357b6848fd8eac0863bc73a175cd204e558c"
+          }
+        },
+        {
+          "client_id": "804689124202-fvol8ct80r6chpop5m20dgghgdumsqkt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.futuresmithsco.simply_better.simply_better_delivery",
+            "certificate_hash": "f022423d33de0c050cd63c23be57acd1919d28d6"
+          }
+        },
+        {
+          "client_id": "804689124202-gjtvlhbafhnj2ooej2k2q5fldqdqge82.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.futuresmithsco.simply_better.simply_better_delivery",
+            "certificate_hash": "390ad009bc4bfbd56f4dcc31f411b7c794dc0ce3"
+          }
+        },
+        {
+          "client_id": "804689124202-2t2cgumi3mthr71nh93c8rkpn8las1f0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.futuresmithsco.simply_better.simply_better_delivery",
+            "certificate_hash": "ec5fc99ff81c9c99d61b6485c573198dbf9adb84"
+          }
+        },
+        {
+          "client_id": "804689124202-h1opk5s7t929ika7iusc4keg5h89onvo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOFZcBmMHxenUv4-1v8svmsLLTO06OWK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "804689124202-h1opk5s7t929ika7iusc4keg5h89onvo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "804689124202-ild0lghf5trpqr5bpu12jn5ijdch04fj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.futuresmithsco.simplyBette",
+                "app_store_id": "123213"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
